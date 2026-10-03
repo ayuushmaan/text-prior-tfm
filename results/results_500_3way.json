@@ -1,0 +1,1 @@
+{"config":{"tables":500,"heldout":100,"steps":1500,"arms":["ctrl","tmpl8","shuf8"]},"eval":{"mask_0.0":{"ctrl":0.80375,"tmpl8":0.810625,"shuf8":0.798125},"mask_0.5":{"ctrl":0.71125,"tmpl8":0.798125,"shuf8":0.70375}}}

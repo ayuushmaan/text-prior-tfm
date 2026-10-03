@@ -1,0 +1,4 @@
+prior: {lib: tabicl, prior_type: mix_scm, min_features: 3, max_features: 5, max_seq_len: 100, max_classes: 3}
+text: {domain: clinic, encoder: tfidf, max_features: 300, n_text_cols: 2, seed: 0}
+missing_ablations: [0.5, 0.9]
+train: {backbone: nanotabpfn, heads: 6, embedding_size: 192, hidden_size: 768, layers: 6, lr: 1.0e-4}
